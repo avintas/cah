@@ -7,11 +7,11 @@ const Footer = () => {
   return (
     <footer className="bg-gray-900 text-white">
       <div className="container-custom">
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 py-12">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 py-16">
           {/* Company Info */}
-          <div className="space-y-4">
-            <div className="flex items-center space-x-2">
-              <div className="w-8 h-8 bg-primary-600 rounded-lg flex items-center justify-center">
+          <div className="space-y-6">
+            <div className="flex items-center space-x-3">
+              <div className="w-10 h-10 bg-primary-600 rounded-lg flex items-center justify-center">
                 <span className="text-white font-bold text-sm">CH</span>
               </div>
               <div>
@@ -19,16 +19,16 @@ const Footer = () => {
                 <p className="text-sm text-gray-300">Management Group</p>
               </div>
             </div>
-            <p className="text-gray-300 text-sm leading-relaxed">
+            <p className="text-gray-300 text-sm leading-relaxed pr-4">
               Professional home health care services delivered in the comfort of your own home. 
               As a Home Care Elite Agency, we provide compassionate care with licensed professionals.
             </p>
           </div>
 
           {/* Quick Links */}
-          <div className="space-y-4">
+          <div className="space-y-6">
             <h4 className="font-semibold text-lg">Quick Links</h4>
-            <ul className="space-y-2">
+            <ul className="space-y-3">
               <li>
                 <Link href="/services" className="text-gray-300 hover:text-white transition-colors duration-200 text-sm">
                   Our Services
@@ -53,9 +53,9 @@ const Footer = () => {
           </div>
 
           {/* Services */}
-          <div className="space-y-4">
+          <div className="space-y-6">
             <h4 className="font-semibold text-lg">Services</h4>
-            <ul className="space-y-2">
+            <ul className="space-y-3">
               <li>
                 <Link href="/services#skilled-nursing" className="text-gray-300 hover:text-white transition-colors duration-200 text-sm">
                   Skilled Nursing
@@ -90,9 +90,9 @@ const Footer = () => {
           </div>
 
           {/* Contact Info */}
-          <div className="space-y-4">
+          <div className="space-y-6">
             <h4 className="font-semibold text-lg">Contact Info</h4>
-            <div className="space-y-3">
+            <div className="space-y-4">
               <div className="flex items-center space-x-3">
                 <Phone className="w-4 h-4 text-primary-400" />
                 <span className="text-gray-300 text-sm">1-818-783-4427</span>
@@ -114,22 +114,22 @@ const Footer = () => {
         </div>
 
         {/* Service Areas */}
-        <div className="border-t border-gray-800 py-6">
-          <div className="text-center mb-4">
-            <h4 className="font-semibold text-lg mb-2">Areas We Serve</h4>
-            <p className="text-gray-300 text-sm">
+        <div className="border-t border-gray-800 py-8">
+          <div className="text-center mb-6">
+            <h4 className="font-semibold text-lg mb-4">Areas We Serve</h4>
+            <p className="text-gray-300 text-sm leading-relaxed">
               Los Angeles County • Orange County • Ventura County • San Bernardino County • Riverside County
             </p>
           </div>
         </div>
 
         {/* Bottom Bar */}
-        <div className="border-t border-gray-800 py-6">
+        <div className="border-t border-gray-800 py-8">
           <div className="flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0">
-            <p className="text-gray-400 text-sm">
+            <p className="text-gray-400 text-sm leading-relaxed">
               © {currentYear} California Healthcare Management Group. All rights reserved.
             </p>
-            <div className="flex space-x-6">
+            <div className="flex space-x-8">
               <Link href="/privacy" className="text-gray-400 hover:text-white transition-colors duration-200 text-sm">
                 Privacy Policy
               </Link>

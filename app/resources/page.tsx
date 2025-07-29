@@ -1,5 +1,5 @@
 import Link from 'next/link'
-import { ArrowRight, CheckCircle, Users, Shield, TrendingUp, Phone, Heart, Stethoscope, Home, Activity, MessageSquare, Briefcase, Droplets, Wrench, Camera, UserCheck, Package, Zap, TestTube, Syringe } from 'lucide-react'
+import { ArrowRight, CheckCircle, Users, Shield, TrendingUp, Phone, Heart, Stethoscope, Home, Activity, MessageSquare, Briefcase, Droplets, Wrench, Camera, UserCheck, Package, Zap, TestTube, Syringe, Clock } from 'lucide-react'
 
 export default function ResourcesPage() {
   return (
